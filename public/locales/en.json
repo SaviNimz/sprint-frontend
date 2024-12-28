@@ -1,7 +1,7 @@
 {
   "common": {
     "or": "Or",
-    "readMore": "Read more:",
+    "readMore": "",
     "tokenError": "Verification token was not provided!",
     "shopByCategory": "Shop by Category",
     "browseCategories": "Browse all categories",
@@ -219,9 +219,9 @@
     }
   },
   "vendure": {
-    "title": "Vendure Remix Starter",
-    "intro": "A headless commerce storefront starter kit built with",
-    "link": "Lightning Fast Headless Commerce with Vendure and Remix",
+    "title": "Minionz Store",
+    "intro": "Integrating Machine customers with E commerce",
+    "link": "",
     "demoCredentials": "Demo credentials",
     "exclusive": "Exclusive: Get your own",
     "repoLinkLabel": "FREE storefront starter kit",

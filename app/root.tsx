@@ -160,12 +160,6 @@ type DefaultSparseErrorPageProps = {
   description: string;
 };
 
-/**
- * You should replace this in your actual storefront to provide a better user experience.
- * You probably want to still show your footer and navigation. You will also need fallbacks
- * for your data dependant components in case your shop instance / CMS isnt responding.
- * See: https://remix.run/docs/en/main/route/error-boundary
- */
 function DefaultSparseErrorPage({
   tagline,
   headline,
@@ -232,11 +226,6 @@ export function ErrorBoundary() {
   );
 }
 
-/**
- * In Remix v2 there will only be a `ErrorBoundary`
- * As mentioned in the jsdoc for `DefaultSparseErrorPage` you should replace this to suit your needs.
- * Relevant for the future: https://remix.run/docs/en/main/route/error-boundary-v2
- */
 export function CatchBoundary() {
   return ErrorBoundary();
 }
